@@ -2,7 +2,7 @@
 
 **AI-Powered Medical Chatbot for Patient Understanding**
 
-## Installation
+## Installation (Internet Required)
 
 1. **Install dependencies**
    Make sure you have Python installed. Then, install the required packages:
@@ -16,6 +16,13 @@
 
    ```bash
    python downloadModel.py
+   ```
+
+3. **Download the Embedding model**
+   This step downloads the local language model used by the chatbot:
+
+   ```bash
+   python downloadEmbeddings.py
    ```
 
 ## Usage
@@ -39,3 +46,4 @@ This will start a local Gradio interface at:
 
 > **Note:**
 > The chatbot uses a local LLM, so response times may be slower than cloud-based solutions.
+
