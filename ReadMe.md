@@ -46,4 +46,6 @@ This will start a local Gradio interface at:
 
 > **Note:**
 > The chatbot uses a local LLM, so response times may be slower than cloud-based solutions.
+> Ensure C++ is installed since LlamaCPP requires C++.
+
 
