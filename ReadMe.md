@@ -37,10 +37,10 @@ This will start a local Gradio interface at:
 [http://127.0.0.1:7860/](http://127.0.0.1:7860/)
 
 * Log in using the following credentials:
-  **Username:** `user`
-  **Password:** `12345`
+  **Username:** `admin`
+  **Password:** `secure_password_123`
 
-* Upload a medical report or lab PDF.
+* Place PDF in pdf_uploads folder.
 
 * Ask the chatbot questions related to the uploaded file.
 
